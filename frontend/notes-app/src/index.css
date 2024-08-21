@@ -16,5 +16,8 @@
 }
 
 @layer components {
-  /* Custom component styles go here */
+  .input-box {
+    @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none;
+  }
+
 }
